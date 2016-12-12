@@ -1,6 +1,6 @@
 // P1756 数字反转
 // https://vijos.org/p/1756
-// by Equim
+// by Equim on 15-12-15
 
 #include<stdio.h>
 #include<string.h>
