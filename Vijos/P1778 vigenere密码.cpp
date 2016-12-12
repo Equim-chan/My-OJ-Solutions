@@ -1,6 +1,6 @@
 // P1778 vigenere密码
 // https://vijos.org/p/1778
-// by Equim
+// by Equim on 16-12-11
 
 #include <cstdio>
 #include <cstring>
