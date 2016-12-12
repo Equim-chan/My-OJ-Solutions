@@ -1,6 +1,6 @@
 // P1131 最小公倍数和最大公约数问题
 // https://vijos.org/p/1131
-// by Equim
+// by Equim on 15-12-14
 
 #include<stdio.h>
 long xO,yO;
