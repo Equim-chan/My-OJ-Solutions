@@ -1,6 +1,6 @@
 // P1484 ISBN号码
 // https://vijos.org/p/1484
-// by Equim
+// by Equim on 15-12-14
 
 #include<stdio.h>
 int main()
