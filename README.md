@@ -2,7 +2,8 @@
 
 _(WIP)_
 
-My solutions for LeetCode OJ, Codewars, Vijos, paiza, etc..
+My solutions for LeetCode OJ, Codewars, Vijos, ~~paiza~~, etc..<br/>
+_Update 16-12-14: I am not permitted to share my solutions nor the corresponding questions of the challenges in paiza due to its policy._
 
 Some solutions have various versions of different languages.
 
