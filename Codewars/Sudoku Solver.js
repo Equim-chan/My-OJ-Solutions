@@ -3,7 +3,7 @@
 // by Equim on 16-12-31
 
 function sudoku(puzzle) {
-    var findNext = (line, col) => {
+    const findNext = (line, col) => {
         while (line <= 8) {
             while (++col <= 8) {
                 if (puzzle[line][col] === 0)
@@ -15,7 +15,7 @@ function sudoku(puzzle) {
         return undefined;
     };
     
-    var valid = (line, col, i) => {
+    const valid = (line, col, i) => {
         for (var k = 0; k < 9; k++) {
             if (puzzle[line][k] === i || puzzle[k][col] === i)
                 return false;
@@ -33,7 +33,7 @@ function sudoku(puzzle) {
         return true;
     };
 
-    var DFS = (line, col) => {
+    const DFS = (line, col) => {
         for (var i = 1; i <= 9; i++) {
             if (valid(line, col, i)) {
                 puzzle[line][col] = i;
