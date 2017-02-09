@@ -21,11 +21,5 @@ while (true) {
     }
 
     // Support Lambda pls QAQ
-    var rank = Object.keys(count).sort(function(a, b) { return count[a] == count[b] ? a - b : count[b] - count[a]; });
-
-    var output = '';
-    for (var i in rank) {
-        output += rank[i] + ' ';
-    }
-    console.log(output.trim());
+    console.log(Object.keys(count).sort(function(a, b) { return count[a] === count[b] ? a - b : count[b] - count[a]; }).join(' '));
 }

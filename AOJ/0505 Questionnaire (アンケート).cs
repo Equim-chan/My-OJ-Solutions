@@ -26,10 +26,8 @@ class Program
                     Count[j + 1] = (Count.ContainsKey(j + 1) ? Count[j + 1] : 0) + Line[j];
                 }
             }
-
-            StringBuilder Result = new StringBuilder();
-            Count.OrderByDescending(p => p.Value).Select(p => p.Key).ToList().ForEach(p => Result.Append(p).Append(" "));
-            Console.WriteLine(Result.ToString().Trim());
+            
+            Console.WriteLine(string.Join(" ", Count.OrderByDescending(p => p.Value).Select(p => p.Key.ToString()).ToArray()));
         }
     }
 }
