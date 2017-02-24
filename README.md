@@ -22,7 +22,7 @@ _"Elegant", literally concise or simple but workable._
 
 ## External links
 
-* [My Codewars](https://www.codewars.com/users/Equim-chan/stats)
+* [My Codewars](https://www.codewars.com/users/Equim/stats)
 * [My LeetCode](https://leetcode.com/equim/)
 * [My Vijos](https://vijos.org/user/108911)
 * [My AOJ](http://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=Equim)
