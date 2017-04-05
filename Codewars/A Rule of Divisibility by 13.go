@@ -1,3 +1,7 @@
+// A Rule of Divisibility by 13
+// https://www.codewars.com/kata/a-rule-of-divisibility-by-13
+// by Equim on 17-04-06
+
 package kata
 
 var div = [...]int{1, 10, 9, 12, 3, 4}
