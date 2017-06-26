@@ -8,7 +8,7 @@ int main()
 	unsigned long n,i;
 	scanf("%lu", &n);
 	unsigned long div = n / 2;//效率
-	for(i = 2; i <= n/2; i++)
+	for(i = 2; i <= div; i++)
 		if(!(n%i))
 		{
 			printf("%lu", n / i);
