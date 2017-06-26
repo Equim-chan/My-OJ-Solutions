@@ -6,11 +6,14 @@
 int main()
 {
 	unsigned long n,i;
-	scanf("%lu",&n);
-	for(i=2;i<=n/2;i++)
-		if(n%i==0)
+	scanf("%lu", &n);
+	unsigned long div = n/2;/*效率上的细微优化*/
+	for(i = 2; i <= div; i++)
+	{
+		if(!(n % i))
 		{
-			printf("%lu",n/i);
+			printf("%lu", n/i);
 			return 0;
 		}
+	}
 }
